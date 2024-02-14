@@ -1,0 +1,43 @@
+body {
+    background-color: rgb(12, 22, 45);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.rounded-box {
+    position: relative;
+    width: 700px;
+    height: 340px;
+    background-color: #4e8cff;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.centered-text {
+    text-align: center;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 75px;
+}
+
+#colorInput {
+    width: 300px;
+    padding: 13px;
+    border: none;
+    border-radius: 10px;
+    background-color: gray;
+    margin-top: 10px;
+    font-size: 17px;
+}
+
+#colorInput::placeholder {
+    color: lightblue; /* 赤色に設定 */
+}
